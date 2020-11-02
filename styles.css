@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: 200pt 900pt 100pt;
+}
+
+header {
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+.wide-media a {
+  margin: 0pt 10pt;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+main {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-rows: 60% 40%;
+}
+
+.top-half {
+  grid-row: 1/2;
+  background-image: url(./images/IndexBeardBackground.jpg);
+  background-position-y: -100pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blurb {
+  margin-left: 500pt;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.blurb h2 {
+  background-color: white;
+  padding: 10pt 20pt;
+}
+
+.blurb p {
+  background-color: black;
+  color: white;
+  padding: 5pt 10pt;
+  width: fit-content;
+}
+
+.bot-half {
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-link {
+  margin-top: 15pt;
+  text-decoration: none;
+  padding: 10pt 20pt;
+  background-color: turquoise;
+  color: white;
+}
+
+footer {
+  grid-row: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.connections i {
+  margin: 0pt 10pt;
+  font-size: 40pt;
+}
+
+@media (max-width: 1200px) {
+  .top-half {
+    background-position-x: -500pt;
+  }
+
+  .blurb {
+    margin-left: 0;
+    align-items: center;
+  }
+}
