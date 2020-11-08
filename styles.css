@@ -71,6 +71,7 @@ main {
   grid-row: 2/3;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .beard-pic {
@@ -180,10 +181,6 @@ footer {
   .blurb {
     margin-left: 0;
     align-items: center;
-  }
-
-  .bot-half {
-    flex-wrap: wrap;
   }
 
   .connections i {
