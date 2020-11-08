@@ -59,6 +59,7 @@ h2 {
   width: 90%;
   margin: 12pt;
   border: 3pt solid black;
+  cursor: pointer;
 }
 
 footer {

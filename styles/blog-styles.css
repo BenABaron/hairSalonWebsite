@@ -50,6 +50,7 @@ main {
 .blog-pic {
   width: 100%;
   border-right: 3pt solid black;
+  cursor: pointer;
 }
 
 .blog-text {
