@@ -39,6 +39,39 @@ main {
   margin-bottom: 20pt;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  text-align: center;
+  margin: 15pt;
+  width: 450pt;
+}
+
+textarea {
+  font-size: 20pt;
+  height: 150pt;
+}
+
+input {
+  font-size: 18pt;
+  height: 40pt;
+}
+
+button {
+  font-size: 22pt;
+  margin-top: 10pt;
+  text-decoration: none;
+  padding: 10pt 20pt;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
 footer {
   grid-row: 3/4;
   display: flex;

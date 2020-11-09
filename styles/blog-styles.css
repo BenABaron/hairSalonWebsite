@@ -39,6 +39,13 @@ main {
   margin-bottom: 20pt;
 }
 
+h2 {
+  font-size: 32pt;
+  color: white;
+  background-color: black;
+  padding: 0 15pt;
+}
+
 .blog-post {
   margin-bottom: 20pt;
   width: 800pt;
@@ -143,10 +150,43 @@ footer {
   background-color: #b3b3b3;
 }
 
-@media (max-width: 1257px) {
+@media (max-width: 1091px) {
   .connections i {
     margin: 0pt 5pt;
     font-size: 20pt;
+  }
+
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20pt;
+  }
+
+  .blog-post {
+    width: 203pt;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 3pt solid black;
+  }
+
+  .blog-text {
+    margin-top: 0pt;
+  }
+
+  .blog-pic {
+    border-right: none;
+    border-bottom: 3pt solid black;
+  }
+
+  .blog-text p {
+    margin: 10pt 20pt;
+    text-align: center;
+    line-height: 25pt;
+  }
+
+  .blog-link {
+    margin: 0pt auto 10pt;
   }
 }
 
